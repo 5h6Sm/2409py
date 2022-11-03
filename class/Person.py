@@ -10,6 +10,10 @@ class Person:
         print('나이 :', self.age)
         print('-'*30)
 
+    def __init__(self):
+        # 생성자
+        print("객체가 하나 생성되었습니다.")
+
 
 p1 = Person()
 p1.create_info('홍길동', 20)
